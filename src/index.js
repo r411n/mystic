@@ -1,6 +1,6 @@
 const fetch = require('node-fetch');
 require('./server')
-const MusicBot = require("./structures/MusicClient");
+const MusicBot = require("./src/structures/MusicClient");
 const client = new MusicBot();
 
 client.connect()
