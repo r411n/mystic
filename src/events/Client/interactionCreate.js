@@ -16,7 +16,7 @@ module.exports = {
         
         if (SlashCommands.owner && interaction.author.id !== `${client.owner}`) {
           await interaction.editReply({
-          content: `Only <@491577179495333903> can use this command!`
+          content: `Only <@755566952449310842> can use this command!`
         }).catch(() => {});
         }
         const player = interaction.client.manager.get(interaction.guildId);
