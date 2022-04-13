@@ -23,9 +23,9 @@ module.exports = {
     if (message.content.match(mention)) {
       const embed = new MessageEmbed()
         .setColor('87fdea')
-        .setAuthor({ name: 'Mystic Music', iconURL: 'https://cdn.discordapp.com/avatars/910792227591163945/3bb282a8f43c062a8490222a96d3dde3.webp?size=4096', url: 'https://discord.com/api/oauth2/authorize?client_id=910792227591163945&permissions=8&scope=bot%20applications.commands' })
-        .setDescription(`**Prefix: \`${prefix}\`**\n**Developer: \gzR41N#9332, Aurel#3353\`**\n**Servers: \`${client.guilds.cache.size}\`**\n \n**Support Server:** If You Need Help Related Me Join My [Support Server](https://discord.gg/35QdxGX8se)
-        **Invite:** Invite Me By Clicking [Here](https://discord.com/api/oauth2/authorize?client_id=910792227591163945&permissions=8&scope=bot%20applications.commands) `);
+        .setAuthor({ name: 'Olivia', iconURL: 'https://cdn.discordapp.com/avatars/910792227591163945/3bb282a8f43c062a8490222a96d3dde3.webp?size=4096', url: 'https://discord.com/api/oauth2/authorize?client_id=924588675155755039&permissions=8&scope=bot%20applications.commands' })
+        .setDescription(`**Prefix: \`${prefix}\`**\n**Developer: \gzR41N#9332, Aurel#3353\`**\n**Servers: \`${client.guilds.cache.size}\`**\n \n**Support Server:** If You Need Help Related Me Join My [Support Server](https://discord.gg/FAMXSgdF)
+        **Invite:** Invite Me By Clicking [Here](https://discord.com/api/oauth2/authorize?client_id=924588675155755039&permissions=8&scope=bot%20applications.commands) `);
       message.channel.send({embeds: [embed], components: [invite]})
     };
     const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
