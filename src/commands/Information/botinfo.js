@@ -18,9 +18,9 @@ client.guilds.cache.forEach((guild) => {
 })
       const embed = new MessageEmbed()
       .setTitle("About Me")
-      .addField("**Bot**","```yml\nName: Rexo Music#6135[955746407472594944]\nDiscord.js: v13.5.0\nNode.js: 16.6.1\n```")
+      .addField("**Bot**","```yml\nName: @Olivia ✨#1700[924588675155755039]\nDiscord.js: v13.5.0\nNode.js: 16.6.1\n```")
      .addField("**General**","```yml\nServers: " + client.guilds.cache.size+" Servers\nUsers: " + mcount+" Users\n```")
-     .addField("**Developers**","```yml\nName: IMMORTAL [senpai]#0001 [928158667017191454] \nName: </JARVIS>#0773 [902883391421153290]```")
+     .addField("**Developers**","```yml\nName: Aurel#3353 [915956372204552233]\nName: gzR41N#9332 [755566952449310842]```")
       message.channel.send({embeds: [embed]})
     }}
 
