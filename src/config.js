@@ -2,7 +2,7 @@ require("dotenv").config();
 //fork again
 module.exports = {
     token: process.env.TOKEN || "",  // your bot token
-    prefix: process.env.PREFIX || "r!", // bot prefix
+    prefix: process.env.PREFIX || "%", // bot prefix
     ownerID: process.env.OWNERID || "755566952449310842", //your discord id
     mongourl: process.env.MONGO_URI || "mongodb+srv://rlx:rlx@rlx.iv0gv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", // MongoDb URL
     embedColor: process.env.COlOR || "#FFFFFF", // embed colour
