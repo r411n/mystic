@@ -29,10 +29,10 @@ module.exports = {
 			);
 
           const mainPage = new MessageEmbed()
-            .setAuthor('Rexo Music')
+            .setAuthor('Olivia')
             .setThumbnail('')
              .setColor('#303236')
-            .addField('Invite Rexo Music', `[Here](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=&scope=applications.commands%20bot)`, true)
+            .addField('Invite Olivia', `[Here](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=&scope=applications.commands%20bot)`, true)
            message.reply({embeds: [mainPage], components: [row]})
     }
 				}
