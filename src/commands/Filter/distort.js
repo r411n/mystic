@@ -1,9 +1,9 @@
 const { MessageEmbed, MessageButton, MessageActionRow } = require("discord.js");
 
 module.exports = {
-    name: "8d",
-    category: "Music",
-    aliases: ["8D"],
+    name: "Distort",
+    category: "Filters",
+    aliases: ["distort"],
     description: "Set EqualizerBand",
     args: false,
     usage: "",
@@ -27,7 +27,7 @@ module.exports = {
             .setDescription(`<a:beats:922386542448742470> Choose what filter you want in the button`)
 
             const but = new MessageButton().setCustomId("clear_but").setLabel("Clear").setStyle("DANGER").setEmoji("936854059615391794");
-            const but2 = new MessageButton().setCustomId("8d_but").setLabel("8D").setStyle("PRIMARY").setEmoji("936854066485669928");
+            const but2 = new MessageButton().setCustomId("distort_but").setLabel("Distort").setStyle("PRIMARY").setEmoji("936854064363356170");
 
             const row = new MessageActionRow().addComponents(but, but2);
 
@@ -49,10 +49,10 @@ module.exports = {
                 await player.clearEffects();
                 if (m) await m.edit({ embeds: [embed], components: [row] });
                 return await b.editReply({ embeds: [embed1.setDescription(`${emojiequalizer} Equalizer mode is OFF`)] });
-            } else if (b.customId === "8d_but") {
-                await player.set8D(true);
-                if (m) await m.edit({ embeds: [embed], components: [row] });
-                return await b.editReply({ embeds: [embed1.setDescription(`${emojiequalizer} 8D mode is ON`)] });
+            } else if (b.customId === "distort_but") {
+                await player.setDistortion(true);
+                if (m) await m.edit({ embeds: [embed], components: [row, row2] });
+                return await b.editReply({ embeds: [embed1.setDescription(`${emojiequalizer} Distort mode is ON`)] });
             }
         })
 
