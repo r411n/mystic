@@ -1,4 +1,4 @@
-const { MessageEmbed, MessageButton, MessageActionRow } = require("discord.js");
+//////const { MessageEmbed, MessageButton, MessageActionRow } = require("discord.js");
 
 module.exports = {
     name: "ffjfjfjfjabout",
@@ -38,4 +38,4 @@ module.exports = {
             )
         return message.reply({embeds: [mainPage], components: [row]});
     }
-}
+}////
