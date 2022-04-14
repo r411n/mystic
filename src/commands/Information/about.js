@@ -1,6 +1,6 @@
 //////const { MessageEmbed, MessageButton, MessageActionRow } = require("discord.js");
 
-module.exports = {
+//////module.exports = {
     name: "ffjfjfjfjabout",
     category: "Information",
     aliases: [ "botinfo" ],
@@ -38,4 +38,4 @@ module.exports = {
             )
         return message.reply({embeds: [mainPage], components: [row]});
     }
-}////
+//////}////
