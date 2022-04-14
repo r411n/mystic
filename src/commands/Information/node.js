@@ -33,8 +33,8 @@ module.exports = {
         
 
         const embed = new MessageEmbed()
-            .setAuthor({ name: `Mystic Music#9773's Node`, iconURL: client.user.displayAvatarURL()})
-            .setDescription(`<:Lavalink:940997028425637958> **Node Stats** <:Lavalink:940997028425637958>`)
+            .setAuthor({ name: `Olivia ✨#1700's Node`, iconURL: client.user.displayAvatarURL()})
+            .setDescription(`**Node Stats**`)
             .addFields(
               { name: `**Node**`, value: `\n\`\`\`${all}\`\`\`` },
               { name: '**Memory**', value: `\n\`\`\`${memory}\`\`\`` },
