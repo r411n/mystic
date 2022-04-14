@@ -10,7 +10,7 @@ module.exports = async (client, player, track, payload) => {
   const emojiskip = client.emoji.skip;
 
   const thing = new MessageEmbed()
-  .setTitle(`<a:music:937596958191808512> **Now Playing**`)
+  .setTitle(`<:music:953027631765422100> **Now Playing**`)
   .setDescription(`[${track.title}](${track.uri}) - \`[ ${convertTime(track.duration)} ]\``)
   .setImage(`https://img.youtube.com/vi/${track.identifier}/mqdefault.jpg`)
   .setColor(client.embedColor)
