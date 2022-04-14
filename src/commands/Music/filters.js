@@ -24,18 +24,18 @@ module.exports = {
         const emojiequalizer = message.client.emoji.filter;
         const embed = new MessageEmbed()
             .setColor(client.embedColor)
-            .setDescription(`<a:beats:922386542448742470> Choose what filter you want in the button`)
+            .setDescription(`🎛️ Choose what filter you want in the button`)
 
-        const but = new MessageButton().setCustomId("clear_but").setLabel("Clear").setStyle("DANGER").setEmoji("936854059615391794");
-        const but2 = new MessageButton().setCustomId("bass_but").setLabel("Bass").setStyle("PRIMARY").setEmoji("936854066485669928");
-        const but3 = new MessageButton().setCustomId("night_but").setLabel("Night Core").setStyle("PRIMARY").setEmoji("936854064363356170");
-        const but4 = new MessageButton().setCustomId("picth_but").setLabel("Pitch").setStyle("PRIMARY").setEmoji("936854066485669928");
-        const but5 = new MessageButton().setCustomId("distort_but").setLabel("Distort").setStyle("PRIMARY").setEmoji("936854064363356170");
-        const but6 = new MessageButton().setCustomId("eq_but").setLabel("Equalizer").setStyle("PRIMARY").setEmoji("936854066485669928");
-        const but7 = new MessageButton().setCustomId("8d_but").setLabel("8D").setStyle("PRIMARY").setEmoji("936854064363356170");
-        const but8 = new MessageButton().setCustomId("boost_but").setLabel("Bass Boost").setStyle("PRIMARY").setEmoji("936854066485669928");
-        const but9 = new MessageButton().setCustomId("speed_but").setLabel("Speed").setStyle("PRIMARY").setEmoji("936854064363356170");
-        const but10 = new MessageButton().setCustomId("vapo_but").setLabel("Vaporwave").setStyle("PRIMARY").setEmoji("936854066485669928");
+        const but = new MessageButton().setCustomId("clear_but").setLabel("Clear").setStyle("DANGER").setEmoji("🎛️");
+        const but2 = new MessageButton().setCustomId("bass_but").setLabel("Bass").setStyle("PRIMARY").setEmoji("🎛️");
+        const but3 = new MessageButton().setCustomId("night_but").setLabel("Night Core").setStyle("PRIMARY").setEmoji("🎛️");
+        const but4 = new MessageButton().setCustomId("picth_but").setLabel("Pitch").setStyle("PRIMARY").setEmoji("🎛️");
+        const but5 = new MessageButton().setCustomId("distort_but").setLabel("Distort").setStyle("PRIMARY").setEmoji("🎛️");
+        const but6 = new MessageButton().setCustomId("eq_but").setLabel("Equalizer").setStyle("PRIMARY").setEmoji("🎛️");
+        const but7 = new MessageButton().setCustomId("8d_but").setLabel("8D").setStyle("PRIMARY").setEmoji("🎛️");
+        const but8 = new MessageButton().setCustomId("boost_but").setLabel("Bass Boost").setStyle("PRIMARY").setEmoji("🎛️");
+        const but9 = new MessageButton().setCustomId("speed_but").setLabel("Speed").setStyle("PRIMARY").setEmoji("🎛️");
+        const but10 = new MessageButton().setCustomId("vapo_but").setLabel("Vaporwave").setStyle("PRIMARY").setEmoji("🎛️");
 
         const row = new MessageActionRow().addComponents(but, but2, but3, but4, but5);
         const row2 = new MessageActionRow().addComponents(but6, but7, but8, but9, but10);
