@@ -16,8 +16,8 @@ module.exports = {
         });
   const embed = new MessageEmbed()
     .setTitle(`${client.user.username} Help`)
-    .setDescription(`**Hey <@${interaction.member.user.id}>, This is <@!910792227591163945> We Provide Quality Music My Prefix In**\n**This Server is \`${prefix}\`**\n**A Discord Music Bot With Many Awesome Features, Support Many Sources.**\n \n**Commands Categories Are Listed Below**\n \n<a:music:936560999350284298> **• Music**\n<:filter:939182602206732348> **• Filters**\n<a:info2:935131554810855424> **• Information**\n<a:setting:936560998146515004> **• Settings**\n<:cmds:936566566173167656> **• All Commands**\n \n**● Select Category From Below Menu**\n \n`)
-    .addField("Important links",`[Invite me](https://discord.com/api/oauth2/authorize?client_id=910792227591163945&permissions=8&scope=bot%20applications.commands) || [Support Server](https://discord.gg/35QdxGX8se)`)
+    .setDescription(`**Hey <@${message.author.id}>, This is <@!924588675155755039> We Provide Quality Music My Prefix In**\n**This Server is \`${prefix}\`**\n**A Discord Music Bot With Many Awesome Features, Support Many Sources.**\n \n**Commands Categories Are Listed Below**\n \n<:music:953027631765422100> \`:\` **Music**\n🎛️ \`:\` **Filters**\n<:op_question:953199712448700456> \`:\` **Information**\n<:setingg:930041536488538182> \`:\` **Settings**\n:open_file_folder: \`:\` **All Commands**\n \n**● Select Category From Below Menu**\n \n`)//dont do anythin
+    .addField("Important links",`[Invite me](https://discord.com/api/oauth2/authorize?client_id=924588675155755039&permissions=8&scope=bot%20applications.commands) || [Support Server](https://discord.gg/UybeVq66hF)`)
     .setImage("https://share.creavite.co/vuzr39a1JLR1Tg3h.gif")
     .setThumbnail('https://cdn.discordapp.com/avatars/910792227591163945/3bb282a8f43c062a8490222a96d3dde3.webp')
     .setColor("WHITE")
@@ -25,13 +25,13 @@ module.exports = {
     .setTimestamp()
     .setFooter({ text: `Requested by: ${interaction.member.user.username}`, iconURL: interaction.member.user.displayAvatarURL({ dynamic: true})})
     
-    let but1 = new MessageButton().setCustomId("home").setLabel("Home").setStyle("SUCCESS").setEmoji('936563650561462312')
+    let but1 = new MessageButton().setCustomId("home").setLabel("Home").setStyle("SUCCESS").setEmoji('🏠')
   
-    let but2 = new MessageButton().setCustomId("music").setLabel("Music").setStyle("PRIMARY").setEmoji('937596958191808512')
+    let but2 = new MessageButton().setCustomId("music").setLabel("Music").setStyle("PRIMARY").setEmoji('953027631765422100')
   
     let but3 = new MessageButton().setCustomId("info").setLabel("Info").setStyle("PRIMARY").setEmoji('937596933168578590');
 
-    let but4 = new MessageButton().setCustomId("config").setLabel("Config").setStyle("PRIMARY").setEmoji('915229540182286356');
+    let but4 = new MessageButton().setCustomId("config").setLabel("Config").setStyle("PRIMARY").setEmoji('930041536488538182');
 
      let _commands;
      let editEmbed = new MessageEmbed();
