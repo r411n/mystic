@@ -52,30 +52,30 @@ module.exports = {
           label: "Music",
           description: "",
           value: "music",
-          emoji: "936560999350284298",
+          emoji: "953027631765422100",
         },
         {
           label: "Filters",
           description: "",
           value: "filters",
-          emoji: "939182602206732348",//add comma otherwis it will not work
+          emoji: "🎛️",//add comma otherwis it will not work
         }, {
           label: "Info",
           description: "",
           value: "Info",
-          emoji: "935131554810855424",
+          emoji: "953199712448700456",
         },
         {
           label: "Settings",
           description: "",
           value: "setting",
-          emoji: "936560998146515004",
+          emoji: "930041536488538182",
         },
         {
           label: "All Commands",
           description: "",
           value: "cmds",
-          emoji: "936566566173167656",
+          emoji: "📁",
         },
       ])
     )
@@ -84,7 +84,7 @@ module.exports = {
 
     let embedm = new MessageEmbed()
     .setTitle("Help Menu")
-    .setDescription(`**Hey <@${message.author.id}>, This is <@!924588675155755039> We Provide Quality Music My Prefix In**\n**This Server is \`${prefix}\`**\n**A Discord Music Bot With Many Awesome Features, Support Many Sources.**\n \n**Commands Categories Are Listed Below**\n \n<a:music:948231411712798781> \`:\` **Music**\n<a:filter2:937596938805706784> \`:\` **Filters**\n<a:infor22:937596933168578590> \`:\` **Information**\n<a:setting2:937596943297810443> \`:\` **Settings**\n<:Commands:937596931973189652> \`:\` **All Commands**\n \n**● Select Category From Below Menu**\n \n`)//dont do anythin
+    .setDescription(`**Hey <@${message.author.id}>, This is <@!924588675155755039> We Provide Quality Music My Prefix In**\n**This Server is \`${prefix}\`**\n**A Discord Music Bot With Many Awesome Features, Support Many Sources.**\n \n**Commands Categories Are Listed Below**\n \n<:music:953027631765422100> \`:\` **Music**\n🎛️ \`:\` **Filters**\n<:op_question:953199712448700456> \`:\` **Information**\n<:setingg:930041536488538182> \`:\` **Settings**\n:open_file_folder: \`:\` **All Commands**\n \n**● Select Category From Below Menu**\n \n`)//dont do anythin
     .addField(":link: Important links",`[Invite me](https://discord.com/api/oauth2/authorize?client_id=924588675155755039&permissions=8&scope=bot%20applications.commands) - [Support Server](https://discord.gg/UybeVq66hF)`)
     .setImage("")
     .setThumbnail('')
@@ -124,7 +124,7 @@ let embed4 = new MessageEmbed()
 let embed5 = new MessageEmbed()
 .setTitle("All Commands")
 .setImage("")
-.setDescription('<a:music:948231411712798781> **Music commands! [19]**\n`clearqueue`, `filters`, `grab`, `join`, `leave`, `loop`, `nowplaying`, `pause`, `play`, `queue`, `remove`, `resume`, `search`, `seek`, `shuffle`, `skip`, `skipto`, `stop`, `volume`, `lyrics`\n \n<a:filter2:937596938805706784> **Filters [9]**\n`Bass`, `Nightcore`, `Pitch`,`Distort`, `Equalizer`, `8D`, `Bass Boost`, `Speed`, `Vaporwave`\n \n<a:infor22:937596933168578590> **Info Commands [7]**\n`about`, `help`, `invite`, `node`, `ping`, `status`, `botinfo`, `uptime`\n \n<a:setting2:937596943297810443> **Settings [3]**\n`24/7`, `setprefix`, `eval`')
+.setDescription('<:music:953027631765422100> **Music commands! [19]**\n`clearqueue`, `filters`, `grab`, `join`, `leave`, `loop`, `nowplaying`, `pause`, `play`, `queue`, `remove`, `resume`, `search`, `seek`, `shuffle`, `skip`, `skipto`, `stop`, `volume`, `lyrics`\n \n🎛️ **Filters [9]**\n`Bass`, `Nightcore`, `Pitch`,`Distort`, `Equalizer`, `8D`, `Bass Boost`, `Speed`, `Vaporwave`\n \n<:op_question:953199712448700456> **Info Commands [7]**\n`about`, `help`, `invite`, `node`, `ping`, `status`, `botinfo`, `uptime`\n \n<:setingg:930041536488538182> **Settings [3]**\n`24/7`, `setprefix`, `eval`')
 .setThumbnail("")
 .setColor("WHITE")
 
