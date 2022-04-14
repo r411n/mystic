@@ -40,7 +40,7 @@ module.exports = {
     .addComponents(
       new MessageSelectMenu()
       .setCustomId("select")
-      .setPlaceholder("Rexo Music Help Menu")
+      .setPlaceholder("Olivia Help Menu")
       .addOptions([
         {
           label: "Home",
@@ -84,8 +84,8 @@ module.exports = {
 
     let embedm = new MessageEmbed()
     .setTitle("Help Menu")
-    .setDescription(`**Hey <@${message.author.id}>, This is <@!955746407472594944> We Provide Quality Music My Prefix In**\n**This Server is \`${prefix}\`**\n**A Discord Music Bot With Many Awesome Features, Support Many Sources.**\n \n**Commands Categories Are Listed Below**\n \n<a:music:948231411712798781> \`:\` **Music**\n<a:filter2:937596938805706784> \`:\` **Filters**\n<a:infor22:937596933168578590> \`:\` **Information**\n<a:setting2:937596943297810443> \`:\` **Settings**\n<:Commands:937596931973189652> \`:\` **All Commands**\n \n**● Select Category From Below Menu**\n \n`)//dont do anythin
-    .addField("<:invite:940480668834627614> Important links",`[Invite me](https://discord.com/oauth2/authorize?client_id=955746407472594944&permissions=8&scope=bot%20applications.commands) - [Support Server](https://discord.gg/6udBqAnM8X)`)
+    .setDescription(`**Hey <@${message.author.id}>, This is <@!924588675155755039> We Provide Quality Music My Prefix In**\n**This Server is \`${prefix}\`**\n**A Discord Music Bot With Many Awesome Features, Support Many Sources.**\n \n**Commands Categories Are Listed Below**\n \n<a:music:948231411712798781> \`:\` **Music**\n<a:filter2:937596938805706784> \`:\` **Filters**\n<a:infor22:937596933168578590> \`:\` **Information**\n<a:setting2:937596943297810443> \`:\` **Settings**\n<:Commands:937596931973189652> \`:\` **All Commands**\n \n**● Select Category From Below Menu**\n \n`)//dont do anythin
+    .addField(":link: Important links",`[Invite me](https://discord.com/api/oauth2/authorize?client_id=924588675155755039&permissions=8&scope=bot%20applications.commands) - [Support Server](https://discord.gg/UybeVq66hF)`)
     .setImage("")
     .setThumbnail('')
     .setColor("WHITE")
@@ -103,7 +103,7 @@ let embed1 = new MessageEmbed()
 let embed2 = new MessageEmbed()
 .setTitle("Info Commands!")
 .setImage("")
-.setDescription('`about`, `help`, `invite`, `node`, `ping`, `status`, `botinfo`,`uptime`')
+.setDescription('`help`, `invite`, `node`, `ping`, `status`, `botinfo`,`uptime`')
 .setColor("WHITE")
 .setThumbnail("")
 
