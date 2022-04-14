@@ -1,6 +1,6 @@
-//////const { MessageEmbed, MessageButton, MessageActionRow } = require("discord.js");
+const { MessageEmbed, MessageButton, MessageActionRow } = require("discord.js");////
 
-//*module.exports = {/**/
+    module.exports = {
     name: "ffjfjfjfjabout",
     category: "Information",
     aliases: [ "botinfo" ],
