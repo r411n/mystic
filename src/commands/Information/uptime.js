@@ -20,13 +20,13 @@ let seconds = Math.floor(totalSeconds % 60);
       const embed = new MessageEmbed()
       .setAuthor({ name: "", iconURL: client.user.displayAvatarURL()})
     .setColor(client.embedColor)
-      .addField("Rexo's Uptime", `\`\`\`yml\n${days} days, ${hours} hours, ${minutes} minutes and ${seconds} seconds\n\`\`\``, true)
+      .addField("Olivia's Uptime", `\`\`\`yml\n${days} days, ${hours} hours, ${minutes} minutes and ${seconds} seconds\n\`\`\``, true)
       .setColor("WHITE")
       .setDescription("")
           .setFooter({ text: `Requested by ${message.author.username}`, iconURL:  message.author.avatarURL({ dynamic: true })})
       .setTimestamp();
       await msg.edit({
-        content: "<a:Uptime:945712453835194458> Here Is The Uptime Of The Bot",
+        content: ":chart_with_downwards_trend Here Is The Uptime Of The Bot",
     embeds: [embed]
       })
     })
