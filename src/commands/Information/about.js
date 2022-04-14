@@ -3,7 +3,7 @@ const { MessageEmbed, MessageButton, MessageActionRow } = require("discord.js");
     module.exports = {
     name: "ffjfjfjfjabout",
     category: "Information",
-    aliases: [ "botinfo" ],
+    aliases: [ "slaw" ],
     description: "See description about this project",
     args: false,
     usage: "",
