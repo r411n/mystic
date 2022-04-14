@@ -2,7 +2,7 @@ const { MessageEmbed, CommandInteraction, Client } = require("discord.js")
 
 module.exports = {
     name: "uptime",
-    description: "Sends Mystic's Uptime",
+    description: "Sends Olivia's Uptime",
 
     /**
      * 
