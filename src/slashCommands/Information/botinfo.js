@@ -2,7 +2,7 @@ const { MessageEmbed, CommandInteraction, Client } = require("discord.js")
 
 module.exports = {
     name: "botinfo",
-    description: "check lavalink server information",
+    description: "check bot information",
 
     /**
      * 
