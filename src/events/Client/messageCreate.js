@@ -69,7 +69,7 @@ module.exports = {
         return channel.send({ content: `Error: I need \`EMBED_LINKS\` permission to work.` });
       }
     if (command.owner && message.author.id !== `${client.owner}`) {
-        embed.setDescription("Only <@902883391421153290> And <@928158667017191454> can use this command!");
+        embed.setDescription("Only <@755566952449310842> And <@915956372204552233> can use this command!");
         return message.channel.send({embeds: [embed]});
     }
 
