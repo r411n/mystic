@@ -26,7 +26,7 @@ let seconds = Math.floor(totalSeconds % 60);
           .setFooter({ text: `Requested by ${message.author.username}`, iconURL:  message.author.avatarURL({ dynamic: true })})
       .setTimestamp();
       await msg.edit({
-        content: ":chart_with_downwards_trend Here Is The Uptime Of The Bot",
+        content: ":chart_with_downwards_trend: Here Is The Uptime Of The Bot",
     embeds: [embed]
       })
     })
